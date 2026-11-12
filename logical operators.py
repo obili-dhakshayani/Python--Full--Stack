@@ -1,0 +1,10 @@
+student_score=int(input("Enter student score:"))
+student_attendance=int(input("Enter student attendence :"))
+# is_project =input("is project completed :")
+is_project =input("is project completed :") .lower()=="yes"
+result=(student_score>=50 and student_attendance >=70 and is_project)
+print(result)
+result=(student_score>=50 or student_attendance >=80  and is_project)
+print(result)
+print(is_project )
+print(not is_project )
